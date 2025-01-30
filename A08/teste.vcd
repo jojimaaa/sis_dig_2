@@ -1,0 +1,54 @@
+$date
+	Wed Apr 03 12:34:51 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$scope module rom_8_inst $end
+$var wire 1 ! OE $end
+$var wire 3 " addr [2:0] $end
+$var reg 32 # out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1001100001101010101101101000 #
+b0 "
+1!
+$end
+#10
+b10000001110000101101110101001 #
+b1 "
+#20
+b111111100000000000000000000000 #
+b10 "
+#30
+b111110100000000000000000000000 #
+b11 "
+#40
+b1000000010000000000000000000000 #
+b100 "
+#50
+b1000001001000000000000000000000 #
+b101 "
+#60
+b111110101000000000000000000000 #
+b110 "
+#70
+b111111011000000000000000000000 #
+b111 "
+#80
+bz #
+0!
+#90
+b111111011000000000000000000000 #
+1!
+#100
